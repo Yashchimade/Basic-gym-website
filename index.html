@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Fitness Mantra</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <style>
+    /* CSS Reset */
+    body {
+      font-family: "Rowdies", cursive;
+      color: aliceblue;
+      margin: 0px;
+      padding: 0px;
+      background: url("img/bg.jpg");
+      background-size: 100vw;
+    }
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 34px;
+      top: 20px;
+      border: 0px;
+      /* border: 2px solid red; */
+    }
+    .left img {
+      width: 136px;
+      filter: invert(100%);
+    }
+    .left div {
+      text-align: center;
+      font-size: 16px;
+    }
+    .mid {
+      display: block;
+      width: 33%;
+      margin: 20px auto;
+      border: none;
+      /* border: 2px solid green; */
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      border: none;
+      /* border: 2px solid gold; */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 24px;
+    }
+    .navbar li a {
+      color: aliceblue;
+      text-decoration: none;
+      padding: 32px 24px;
+    }
+    /* .navbar li a :hover, */
+    .navbar a :active {
+      text-decoration: underline;
+      color: rgb(182, 172, 172);
+    }
+    .btn {
+      font-family: "Rowdies", cursive;
+      background-color: black;
+      color: aliceblue;
+      margin: 0px 9px;
+      padding: 4px 16px;
+      border: 2px solid rgb(155, 145, 145);
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: rgb(54, 49, 49);
+    }
+    .container {
+      /* border: 2px solid green; */
+      margin: 100px 80px;
+      padding: 75px 75px;
+      width: 33%;
+      border-radius: 25px;
+      position: relative;
+      left: 700px;
+    }
+    .form-group input {
+      font-family: "Rowdies", cursive;
+      text-align: center;
+      display: block;
+      width: 340px;
+      padding: 1px;
+      border: 2px solid black;
+      margin: 11px auto;
+      font-size: 25px;
+      border-radius: 8px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .container button {
+      display: block;
+      margin: 23px auto;
+      width: 23%;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img src="img/silhouette-g5694c838c_1280.png" alt="" />
+        <div>Yash Fitness Mantra</div>
+      </div>
+      <!-- mid box for navigation -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#" class="active-1">About Us</a></li>
+          <li><a href="#" class="active-2">Fitness Centre</a></li>
+          <li><a href="#" class="active-3">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Right box for buttons -->
+      <div class="right">
+        <button class="btn">Call Us now</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best Gym in Solapur</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Enter your Locality" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+/* CSS Reset */
+body {
+  font-family: "Rowdies", cursive;
+  color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+  background: url("img/bg.jpg");
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  border: 2px solid red;
+}
+.left img {
+  width: 136px;
+  filter: invert(100%);
+}
+.left div {
+  text-align: center;
+  font-size: 16px;
+}
+.mid {
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+  border: 2px solid green;
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+  border: 2px solid gold;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 24px;
+}
+.navbar li a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 32px 24px;
+}
+.navbar li a :hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: gray;
+}
+.btn {
+  font-family: "Rowdies", cursive;
+  background-color: black;
+  color: aliceblue;
+  margin: 0px 9px;
+  padding: 4px 16px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(54, 49, 49);
+}
